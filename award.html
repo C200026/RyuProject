@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang = "ja">
+
+<head>
+<meta charset = "UTF-8">
+<title>picture</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet" type="text/css">
+
+<link rel ="stylesheet" href = "style2.css">
+<style>
+    .item {
+        margin: 20px 50px 0px;        
+        
+    }
+    .slider{
+        text-align: center;
+    }
+</style>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" type="text/javascript"></script>
+
+<header>
+    <div id = "header-title">Gallery R</div>
+</header>
+
+<nav>
+    <ul>
+        <li style = "padding-top: 12px;"><a href = "index.html">Home</a> </li>
+        <li><a href = "profile.html">Profile<br>プロフィール</a> </li>
+        <li><a href = "picture.html">Picture<br>絵画</a> </li>
+        <li><a href = "illustration.html">Illustration
+            <br>イラスト</a> </li>
+        <li><a href = "award.html">Award-winning<br>受賞作品</a> </li>
+    </ul>
+</nav>
+
+<div id = "main">
+    <h1>受賞作品</h1>
+    <hr>
+    <br>
+
+    <div>
+        <ul class="slider">
+            <li id = "FireEngine"> <div class="item"><a href= "img/pic/award/FireEngine.png" data-lightbox = "group"><figure><img src = "img/pic/award/FireEngine.png" alt = "はたらく消防車" width="450px"><figcaption>はたらく消防車　（2016年）</figcaption></figure></a></div>
+                <div class="item"><a href= "img/pic/award/Shojo_FireEngine.png" data-lightbox = "group"><img src = "img/pic/award/Shojo_FireEngine.png" alt = "足立区消防写生大会　優秀賞" width="450px"></a></div></li>
+            <li id = "Buncho"> <div class="item"><a href= "img/pic/award/Buncho3.png" data-lightbox = "group"><figure><img src = "img/pic/award/Buncho3.png" alt = "森のぶんちょう" width="300px"><figcaption>森のぶんちょう　（2017年）</figcaption></figure></a></div>
+                <div class="item"><a href= "img/pic/award/Shojo_jr.png" data-lightbox = "group"><img src = "img/pic/award/Shojo_jr.png" alt = "日本ジュニア　入選" width="310px"></a></div></li>
+            <li id = "Eiyo"> <div class="item"><a href= "img/pic/award/Eiyo.png"  data-lightbox = "group"><figure><img src = "img/pic/award/Eiyo.png" alt = "栄養のパンフレット" width="270px"><figcaption>栄養パンフレット　（2019年） </figcaption></figure></a></div>
+                <div class="item"><a href= "img/pic/award/sakuhin.png" data-lightbox = "group"><img src = "img/pic/award/sakuhin.png" alt = "第1回足立区　図書館を使った調べる学習コンクール　入選" width="350px"></a></div></li>
+            <li id = "Shosha1"> <div class="item"><a href= "img/pic/award/syosya1.jpg" data-lightbox = "group"><img src = "img/pic/award/syosya1.jpg" alt = "書写1年生" width="300px"></a></div>
+                <div class="item"><a href= "img/pic/award/Shojo_1.png" data-lightbox = "group"><img src = "img/pic/award/Shojo_1.png" alt = "東京都　書初め紙上展　特別賞受賞" width="450px"></a></div></li>
+            <li id = "Shosha2"> <div class="item"><a href= "img/pic/award/2nen.jpg" data-lightbox = "group"><img src = "img/pic/award/2nen.jpg" alt = "書写2年生" width="300px"></a></div>
+                <div class="item"><a href= "img/pic/award/SyoJo_2-2.png" data-lightbox = "group"><img src = "img/pic/award/SyoJo_2-2.png" alt = "東京都公立学校美術展覧会" width="310px"></a></div></li>
+            <li id = "Shosha5"> <div class="item"><a href= "img/pic/award/99bb755a-ef63-4361-abe8-e5fed16ae186.jpg" data-lightbox = "group"><img src = "img/pic/award/99bb755a-ef63-4361-abe8-e5fed16ae186.jpg" alt = "書道5年生" width="120px"></a></div>
+                <div class="item"><a href= "img/pic/award/SyoJo_2.png" data-lightbox = "group"><img src = "img/pic/award/SyoJo_2.png" alt = "東京都　書初め紙上展" width="450px"></a></div>
+                <div class="item"><a href= "img/pic/award/syosya5.jpg" data-lightbox = "group"><img src = "img/pic/award/syosya5.jpg" alt = "書道5年生" width="300px"></a></div></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        $('.slider').slick({
+            autoplay: true,
+            dots: true,
+        });
+    </script>
+    
+</div>
+
+<footer>
+    <p></p>
+    <p>Copyright (c) 2020 Ryu Suhara All rights reserved. </p>
+</footer>
+
+</body>
+
+
+</html>
+
