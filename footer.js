@@ -1,0 +1,1 @@
+document.write('<div id="footer">Copyright (c) 2020 Ryu Suhara All rights reserved.</div>');
