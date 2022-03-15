@@ -89,6 +89,11 @@ font-family: "hannari";
   margin:10px 80px 10px;
   font-family: "hannari", serif;
 }
+.item3 {
+  display: inline-block;
+  margin:10px;
+  font-family: "hannari", serif;
+}
 
 figure{
   text-align:center;

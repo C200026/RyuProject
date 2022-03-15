@@ -1,1 +1,0 @@
-document.write('<div id = "header-title">Gallery R</div>');
