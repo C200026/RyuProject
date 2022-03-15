@@ -20,6 +20,7 @@
   margin: 0px;
   padding: 0px;
   font-family: "hannari", serif;
+  color:#000033;
 }
 
 body{
@@ -35,17 +36,20 @@ body{
 header{
   height: 20px;
   background-image: url("img/wall6.jpg");  
+  font-family: "hannari";
 }
 
 .navbar-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(200,150,250,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(150,0,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   border-color: #ffffff;
+  font-family: "hannari";
 }
 
 
 nav{
   height: 30px;
   background-image: url("img/1891472_s.jpg");
+  font-family: "hannari";
 }
 
 /* nav-itemの文字色 */
@@ -72,6 +76,7 @@ nav{
 }
 .container{
 align-content: center;
+font-family: "hannari";
 }
 
 li{
