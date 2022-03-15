@@ -11,7 +11,7 @@ function footer(){
 
 function navbar(){
     var navbar = "";
-    navbar = '<nav class="navbar navbar-expand-lg navbar-light bg-light">\
+    navbar = '<nav class="navbar navbar-expand navbar-light">\
     <div class="container-fluid">\
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">\
         <span class="navbar-toggler-icon"></span>\
@@ -19,19 +19,19 @@ function navbar(){
       <div class="collapse navbar-collapse" id="navbarNav">\
         <ul class="navbar-nav">\
           <li class="nav-item">\
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>\
+            <a class="nav-link" href="index.html">Home</a>\
           </li>\
           <li class="nav-item">\
-            <a class="nav-link" href="profile.html">Profile/プロフィール</a>\
+            <a class="nav-link" href="profile.html">Profile</a>\
           </li>\
           <li class="nav-item">\
-            <a class="nav-link" href="picture.html">Picture/絵画</a>\
+            <a class="nav-link" href="picture.html">Picture</a>\
           </li>\
           <li class="nav-item">\
-            <a class="nav-link" href="illustration.html">Illustration/イラスト他</a>\
+            <a class="nav-link" href="illustration.html">Illustration</a>\
           </li>\
           <li class="nav-item">\
-            <a class="nav-link" href="award.html">Award-winning/受賞作品</a>\
+            <a class="nav-link" href="award.html">Award-winning Work</a>\
           </li>\
         </ul>\
       </div>\

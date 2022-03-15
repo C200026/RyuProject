@@ -8,11 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes">
 
     <!-- Bootstrap CSS -->
-    <link rel ="stylesheet" href = "style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/jpn.css@latest/dist/bootstrap/jpn.min.css">
+    <link rel ="stylesheet" href = "style.css">
 
     <title>Profile</title>
+    <script type="text/javascript" src="template.js"></script>
 
 <style>
 
@@ -39,20 +40,14 @@
 </head>
 <body>
 
-<header>
-    <script src="header.js"></script>
-</header>
+    <header>
+        <script type="text/javascript">header();</script> 
+    </header>
+        
+    <nav>
+      <script type="text/javascript">navbar();</script>  
+    </nav>
 
-<nav>
-    <ul>
-        <li style = "padding-top: 12px;"><a href = "index.html">Home</a> </li>
-        <li><a href = "profile.html">Profile<br>プロフィール</a> </li>
-        <li><a href = "picture.html">Picture<br>絵画</a> </li>
-        <li><a href = "illustration.html">Illustration
-            <br>イラスト</a> </li>
-        <li><a href = "award.html">Award-winning<br>受賞作品</a> </li>
-    </ul>
-</nav>
 
 <div id = "main">
 
@@ -80,9 +75,10 @@
 
 
 
-<footer>
-    <script src="footer.js"></script>
+<footer>  
+    <script type="text/javascript">footer();</script> 
 </footer>
+
 
 </body>
 
