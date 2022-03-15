@@ -35,20 +35,20 @@ body{
 }
 
 header{
-  height: 57px;
+  height: 53px;
   background-image: url("img/wall6.jpg");  
   font-family: "hannari", serif;
 }
 
 #header-title{
-  padding-top: 10px;
   padding-left: 20px;
   color: #FFFFFF;
   /*font-weight: bold;*/
   font-size: 40px;
-  /*font-family: "Some Weatz Swashes",  "Some Weatz Symbols", "しょかきさらり行体",  serif; */
+  font-family: "Some Weatz Swashes",  "Some Weatz Symbols", "しょかきさらり行体",  serif; 
   text-shadow: 1px 3px 0 gray;
   font-family: "hannari", serif;
+  font-style: italic;
 }
 
 nav ul {
@@ -56,7 +56,7 @@ nav ul {
   display: flex;
   background-image: url("img/1891472_s.jpg");
   font-family: "hannari", serif;
-  height: 50px;
+  height: 40px;
 }
 
 nav a {
@@ -66,7 +66,7 @@ nav a {
   text-decoration: none;
   color:#000033;
   font-weight: 1000;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "hannari", serif;
   /*font-family: "しょかきさらり行体", "Some Weatz Symbols", "Some Weatz Swashes", serif;
   -webkit-text-stroke-width: 0.5px;
@@ -79,10 +79,25 @@ nav a:hover{
   color: rgba(255, 0, 0, 0.705);
 }
 
+.navbar-light .navbar-toggler {
+  border-color: rgba(0,0,0,0);
+}
 
+/* nav-itemの文字色 */
+.navbar .navbar-nav .nav-link {
+  color: rgba(0,0,255,1);
+}
+/* nav-item activeの文字色 */
+.navbar .navbar-nav .active > .nav-link {
+  color: rgba(0,0,255,1);
+}
+/* nav-item:focus、nav-item:hoverの文字色 */
+.navbar .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0,255,255,1);
+}
 
 #main{
-  padding: 50px 110px;
+  /*padding: 50px 110px;*/
   
   height: auto; 
   color: #000033;
