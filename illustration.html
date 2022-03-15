@@ -7,41 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes">
 
     <!-- Bootstrap CSS -->
-    <link rel ="stylesheet" href = "style2.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/jpn.css@latest/dist/bootstrap/jpn.min.css">
-    
-    <title>picture</title>
+    <link rel ="stylesheet" href = "style2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
 
-<style>
 
-</style>
+    <title>Illustration</title>
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="template.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
 
 </head>
 <body>
 
-<header>
-    <script src="header.js"></script>
-</header>
+    <header>
+        <script type="text/javascript">header();</script> 
+    </header>
+        
+    <nav>
+      <script type="text/javascript">navbar();</script>  
+    </nav>
 
-<nav>
-    <ul>
-        <li style = "padding-top: 12px;"><a href = "index.html">Home</a> </li>
-        <li><a href = "profile.html">Profile<br>プロフィール</a> </li>
-        <li><a href = "picture.html">Picture<br>絵画</a> </li>
-        <li><a href = "illustration.html">Illustration<br>イラスト</a> </li>
-        <li><a href = "award.html">Award-winning<br>受賞作品</a> </li>
-    </ul>
-</nav>
-
-<div id = "main">
+    <div class="container" style="color: white; font-family: 'hannari', serif;">
     
-        <h1>鬼滅の刃</h1>
-        <hr>
+        <h2>鬼滅の刃</h2>
+        <hr color="white">
         <div class = "f-container">
             <p class = "f.pic"><a href= "img/pic/illustration/kimetsu/shinobu2.png" data-lightbox = "group"><figure><img src = "img/pic/illustration/kimetsu/shinobu2.png" alt = "胡蝶しのぶ" width="300px" ><figcaption>胡蝶しのぶ</figcaption></figure></a></p> 
             <p class = "f.pic"><a href= "img/pic/illustration/kimetsu/shinokana1.png" data-lightbox = "group"><figure><img src = "img/pic/illustration/kimetsu/shinokana1.png" alt = "胡蝶カナエ＆しのぶ" width="320px"><figcaption>胡蝶カナエ＆しのぶ</figcaption></figure></a></p>
@@ -66,8 +59,8 @@
         </div>
         
         <br><br>
-        <h1>その他のアニメ</h1>
-        <hr>
+        <h2>その他のアニメ</h2>
+        <hr color="white">
 
         <div class = "f-container">
             <p class = "f.pic"><a href= "img/pic/illustration/others/hanako.png" data-lightbox = "group"><figure><img src = "img/pic/illustration/others/hanako.png" alt = "トイレの花子くん" width="300px" ><figcaption>トイレの花子くん</figcaption></figure></a></p>
@@ -88,8 +81,8 @@
         </div>
 
         <br><br>
-        <h1>その他作品</h1>
-        <hr>
+        <h2>その他作品</h2>
+        <hr color="white">
 
         <div class = "f-container">
             <p class = "f.pic"><a href= "img/pic/illustration/works/harie.png" data-lightbox = "group"><figure><img src = "img/pic/illustration/works/harie.png" alt = "貼り絵" width="260px" ><figcaption>生け花　（貼り絵）</figcaption></figure></a></p>
@@ -112,9 +105,9 @@
             <p class = "f.pic"><a href= "img/pic/illustration/works/papa2.png" data-lightbox = "group"><figure><img src = "img/pic/illustration/works/papa2.png" alt = "パパ" width="400px" ><figcaption>パパ　（5歳）</figcaption></figure></a></p>
 
         </div>
-</div>
+        <div id="page_top"><a href="illustration.html"></a></div>
+    </div>
 
-<!-- <p class = "f.pic"><a href= "" data-lightbox = "group"><img src = "" alt = "" width="00px" ></a></p> -->
 
 <footer>
     <script src="footer.js"></script>

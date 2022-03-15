@@ -20,7 +20,6 @@
   margin: 0px;
   padding: 0px;
   font-family: "hannari", serif;
-  color:#000033;
 }
 
 body{
@@ -37,6 +36,7 @@ header{
   height: 20px;
   background-image: url("img/wall6.jpg");  
   font-family: "hannari";
+  color:#000033;
 }
 
 .navbar-toggler .navbar-toggler-icon {
@@ -50,6 +50,7 @@ nav{
   height: 30px;
   background-image: url("img/1891472_s.jpg");
   font-family: "hannari";
+  color:#000033;
 }
 
 /* nav-itemの文字色 */
@@ -77,11 +78,13 @@ nav{
 .container{
 align-content: center;
 font-family: "hannari";
+color:#000033;
 }
 
 li{
   list-style-type: none;
   font-family: "hannari", serif;
+  color:#000033;
   }
 
 h2{
@@ -89,6 +92,7 @@ h2{
   margin : 0px;
   font-weight: 800;
   font-family: "hannari", serif;  
+  color:#000033;
 }
 
 footer{
