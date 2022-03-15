@@ -38,7 +38,7 @@ header{
 }
 
 .navbar-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(206,176,203,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(200,150,250,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   border-color: #ffffff;
 }
 
@@ -67,32 +67,23 @@ nav{
 }
 /* nav-item:focus、nav-item:hoverの文字色 */
 .navbar .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: rgba(0,0,255,1);
+  color: rgba(100,0,255,1);
 
 }
 .container{
 align-content: center;
 }
 
-#main{
-  /*padding: 50px 110px;
-  text-align: center;*/
-  height: auto; 
-  color: #000033;
-  font-family: "hannari", serif;  
-}
 li{
   list-style-type: none;
   font-family: "hannari", serif;
   }
 
 h2{
-  padding-top: 20px;
   padding-bottom: 0px;
   margin : 0px;
   font-weight: 800;
-  font-family: "hannari", serif;
-  line-height:50px;
+  font-family: "hannari", serif;  
 }
 
 footer{
